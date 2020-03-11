@@ -1,0 +1,20 @@
+#banner {
+  & {
+    background: #222635;
+    color: $_sis-bg-color;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .col {
+    max-width: 750px;
+  }
+
+  @include media-breakpoint-up(sm) {
+  }
+
+  @include media-breakpoint-up(lg) {
+    background-position: center right;
+  }
+}

@@ -1,0 +1,62 @@
+// this changes the bootstrap
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  // xxl: 1900px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  // xxl: 1610px
+);
+
+@font-face {
+  font-family: "responsivenav";
+  src: url("../icons/responsivenav.eot");
+  src: url("../icons/responsivenav.eot?#iefix") format("embedded-opentype"),
+    url("../icons/responsivenav.ttf") format("truetype"),
+    url("../icons/responsivenav.woff") format("woff"),
+    url("../icons/responsivenav.svg#responsivenav") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Sizes
+$_sis-size-base: 0.625rem; //10
+$_sis-flex-menu-height: 80px;
+
+// $h2-font-size: $_sis-size-base * 4.5; //this changes the bootstrap
+// $h3-font-size: $_sis-size-base * 3.5; //this changes the bootstrap
+// $h4-font-size: $_sis-size-base * 2.4; //this changes the bootstrap
+
+$body-color: #000000; //From bootstrap > this changes the bootstrap
+$headings-line-height: 1.5; //this changes the bootstrap
+$headings-font-weight: bold; //this changes the bootstrap
+$font-family-base: "Open Sans", sans-serif; //this changes the bootstrap
+
+// // Main Colors
+$_sis-menu-color: #000000;
+$_sis-bg-color: #ffffff;
+$_sis-main-color: #ffcb05;
+$link-color: #ffcb05; //From bootstrap > this changes the bootstrap
+$link-hover-color: #000000; //From bootstrap > this changes the bootstrap
+
+$sis-sections-y-paddination: 0.625rem; //10
+
+// Sis-add-post-form
+$sis-add-post-form-btn-bg: $body-color;
+$sis-add-post-form-btn-color: #fff;
+
+// learn-about
+$sis-learn-about-bg-color: #f3f3f3;
+
+//fotter
+$_sis-footer-bg-color: #272727;
+$_sis-footer-text-color: #a8a8a8;
+$sis-footer-y-paddination: 0.625rem; //10

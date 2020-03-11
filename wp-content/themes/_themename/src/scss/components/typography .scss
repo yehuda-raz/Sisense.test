@@ -1,0 +1,64 @@
+.site {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    text-transform: capitalize;
+  }
+  h2,
+  .h2 {
+    font-size: 3.5 * $_sis-size-base;
+    line-height: normal;
+  }
+  h3,
+  .h3 {
+    font-size: 3 * $_sis-size-base;
+    line-height: normal;
+  }
+  h4,
+  .h4 {
+    font-size: 2.4 * $_sis-size-base;
+    line-height: normal;
+  }
+
+  section {
+    padding-top: 4 * $sis-sections-y-paddination;
+    padding-bottom: 4 * $sis-sections-y-paddination;
+  }
+
+  .sis-max-w {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  @include media-breakpoint-up(sm) {
+  }
+  @include media-breakpoint-up(md) {
+    h2,
+    .h2 {
+      font-size: 4.5 * $_sis-size-base;
+    }
+    h3,
+    .h3 {
+      font-size: 3.5 * $_sis-size-base;
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    section {
+      padding-top: 4.5 * $sis-sections-y-paddination;
+      padding-bottom: 4.5 * $sis-sections-y-paddination;
+    }
+  }
+  @include media-breakpoint-up(xl) {
+    h4,
+    .h4 {
+      font-size: 2.4 * $_sis-size-base;
+    }
+
+    section {
+      padding-top: 5 * $sis-sections-y-paddination;
+      padding-bottom: 5 * $sis-sections-y-paddination;
+    }
+  }
+}

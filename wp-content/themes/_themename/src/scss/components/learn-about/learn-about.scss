@@ -1,0 +1,10 @@
+#learn-about {
+  & {
+    background: $sis-learn-about-bg-color;
+  }
+
+  .col {
+    max-width: 620px;
+    width: 100%;
+  }
+}
